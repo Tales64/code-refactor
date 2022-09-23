@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../UW-VIRT-FSF-FT-09-2022-U-LOLC/week-01/01-HTML-Git-CSS/02-Challenge"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "02-Challenge"
+	}
+}
