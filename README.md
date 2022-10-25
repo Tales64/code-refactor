@@ -1,4 +1,15 @@
 Code-Refactor
 This is a remastering of the code already given to us to make sure the website meets the clients wants and needs for their website.
-Adding and deleting featers that have been requested.
+We where supposed to clean up the code and add accecability features.
 Reducing redundant code and retaining curent page layout. 
+
+![alt text](http://url/to/img.png)
+
+
+
+
+
+
+
+This is a link to the website
+https://tales64.github.io/code-refactor/
