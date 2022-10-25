@@ -3,7 +3,7 @@ This is a remastering of the code already given to us to make sure the website m
 We where supposed to clean up the code and add accecability features.
 Reducing redundant code and retaining curent page layout. 
 
-![alt text](http://url/to/img.png)
+![alt text]([http://url/to/Refactor screenshot.png](https://github.com/Tales64/code-refactor/blob/main/Refactor%20screenshot.png))
 
 
 
