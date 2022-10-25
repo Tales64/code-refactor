@@ -1,3 +1,5 @@
+/* Redundant code extracted = in an attempt to eliminate lines of code that were doing the same job */
+/* Removed unneeded code = code that wasnt being used was removed to help declutter for readability  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -108,6 +110,16 @@ a {
     max-width: 250px;
 }
 
+/* using ids to create nav links */
+#Search{
+
+}
+#online{
+
+}
+#social{
+
+}
 /* redundant code extracted */
     /* Boxes size increased */
 .search-engine-optimization {
@@ -129,7 +141,7 @@ a {
     font-size: 70px;
 }
 /* unwanted code extracted */
-
+/* media screen was added to help the website layout on smaller screens */
 @media screen and (max-width: 768px) { 
     .hero{
         width: 100%;

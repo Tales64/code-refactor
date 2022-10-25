@@ -13,31 +13,34 @@
         <nav>
             <ul>
                 <li> 
-                    <!-- Added actual websites. links now open in a new tab x3 -->
-                    <a href="https://marvel.fandom.com/wiki/Horizon_Labs_(Earth-616)" target="_blank">Search Engine Optimization</a>
+                    <!-- used the new ids to link nav to specific sections in the page -->
+                    <a href="#search">Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/charliesheen?lang=en" target="_blank">Online Reputation Management</a>
+                    <a href="#online" >Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="https://www.tiktok.com/@khaby.lame?lang=en" target="_blank">Social Media Marketing</a>
+                    <a href="#social">Social Media Marketing</a>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="hero"></div>
     <article class="content">
+        <!-- id was removed because it was doing the same job as the class -->
+        <!-- a new id was created to link nav to these sections of the page -->
         <section class="search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" alt="a cup of coffee, Lap top, and work supplies on a table" class="float-left" />
-                <h2>Search Engine Optimization</h2>
-                <!-- added p class rule-->
-                <p class="p">
+            <a id="search"></a><img src="./assets/images/search-engine-optimization.jpg" alt="a cup of coffee, Lap top, and work supplies on a table" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <!-- added p class rule-->
+            <p class="p">
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-                </p>
+            </p>
         </section>
         <!-- Code replaced to consolidate redundant code -->
-        <section id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/online-reputation-management.jpg" alt="a person on a laptop with the word reputaion on screen" class="float-right" />
+        <!-- id was removed because it was doing the same job as the class -->
+        <section class="search-engine-optimization">
+            <a id="online"></a><img src="./assets/images/online-reputation-management.jpg" alt="a person on a laptop with the word reputaion on screen" class="float-right" />
             <h2>Online Reputation Management</h2>
             <!-- added p class rule-->
             <p class="p">
@@ -45,8 +48,9 @@
             </p>
         </section>
         <!-- Code replaced to consolidate redundant code -->
-        <section id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/social-media-marketing.jpg" alt="people at a meeting table with thought bubbles scattered everywhere" class="float-left" />
+        <!-- id was removed because it was doing the same job as the class -->
+        <section class="search-engine-optimization">
+            <a id="social"></a><img src="./assets/images/social-media-marketing.jpg" alt="people at a meeting table with thought bubbles scattered everywhere" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p class="p">
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
